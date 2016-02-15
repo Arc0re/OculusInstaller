@@ -124,7 +124,6 @@ Use the '--list' command line argument to list the compatible (tested) games/dem
                 }
             }
 
-
             Console.ReadKey();
         }
     }
