@@ -62,6 +62,7 @@ namespace OculusInstaller
                 else
                 {
                     Console.WriteLine("File successfully downloaded.");
+                    Console.WriteLine("Press a key to continue.");
                     return true;
                 }
             }
