@@ -3,3 +3,4 @@ c:\users\arc\documents\visual studio 2015\Projects\OculusInstaller\OculusInstall
 c:\users\arc\documents\visual studio 2015\Projects\OculusInstaller\OculusInstaller\bin\Release\OculusInstaller.pdb
 c:\users\arc\documents\visual studio 2015\Projects\OculusInstaller\OculusInstaller\obj\Release\OculusInstaller.exe
 c:\users\arc\documents\visual studio 2015\Projects\OculusInstaller\OculusInstaller\obj\Release\OculusInstaller.pdb
+c:\users\arc\documents\visual studio 2015\Projects\OculusInstaller\OculusInstaller\obj\Release\OculusInstaller.csprojResolveAssemblyReference.cache

@@ -7,7 +7,6 @@ namespace OculusInstaller
 {
     class Program
     {
-
         static string RuntimeInstaller = "oculus_runtime_sdk_0.7.0.win.exe";
         static string URLRuntimeInstaller = "https://static.oculus.com/sdk-downloads/0.7.0.0/Public/1440610361/oculus_runtime_sdk_0.7.0.0_win.exe";
 
