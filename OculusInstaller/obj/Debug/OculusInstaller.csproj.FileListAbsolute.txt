@@ -1,0 +1,6 @@
+c:\users\arc\documents\visual studio 2015\Projects\OculusInstaller\OculusInstaller\bin\Debug\OculusInstaller.exe.config
+c:\users\arc\documents\visual studio 2015\Projects\OculusInstaller\OculusInstaller\bin\Debug\OculusInstaller.exe
+c:\users\arc\documents\visual studio 2015\Projects\OculusInstaller\OculusInstaller\bin\Debug\OculusInstaller.pdb
+c:\users\arc\documents\visual studio 2015\Projects\OculusInstaller\OculusInstaller\obj\Debug\OculusInstaller.csprojResolveAssemblyReference.cache
+c:\users\arc\documents\visual studio 2015\Projects\OculusInstaller\OculusInstaller\obj\Debug\OculusInstaller.exe
+c:\users\arc\documents\visual studio 2015\Projects\OculusInstaller\OculusInstaller\obj\Debug\OculusInstaller.pdb
