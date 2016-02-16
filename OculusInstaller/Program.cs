@@ -1,4 +1,10 @@
-﻿using System;
+﻿/*
+*
+* Made by github.com/Arc0re
+*
+*/
+
+using System;
 using System.Diagnostics;
 using System.IO;
 using System.Net;
@@ -10,11 +16,18 @@ namespace OculusInstaller
         static string RuntimeInstaller = "oculus_runtime_sdk_0.7.0.win.exe";
         static string URLRuntimeInstaller = "https://static.oculus.com/sdk-downloads/0.7.0.0/Public/1440610361/oculus_runtime_sdk_0.7.0.0_win.exe";
 
+        /// <summary>
+        /// Prints a line of dashes in the current stdout.
+        /// </summary>
         static void PutLine()
         {
             Console.WriteLine(@"-------------------------------------------------------------------");
         }
 
+        /// <summary>
+        /// Parses then prints a list of the tested games from the "games.txt" file.
+        /// If its not present, exits with -1.
+        /// </summary>
         static void ListGames()
         {
             Console.WriteLine("List of working games and demos:");
@@ -40,6 +53,10 @@ namespace OculusInstaller
             }
         }
 
+        /// <summary>
+        /// Gets the Oculus Rift 0.7.0 Runtime from the official server.
+        /// </summary>
+        /// <returns>Returns a boolean indicating success or failure.</returns>
         static bool DownloadRuntime()
         {
             Console.WriteLine("It will now proceed to the download and the installation.");
@@ -74,6 +91,10 @@ namespace OculusInstaller
             }
         }
 
+        /// <summary>
+        /// Launches the downloaded runtime setup.
+        /// Throws a Win32Exception in case it fails.
+        /// </summary>
         static void InstallRuntime()
         {
             try
@@ -122,9 +143,18 @@ Use the '--list' command line argument to list the compatible (tested) games/dem
                     {
                         ListGames();
                     }
+                    else
+                    {
+                        PutLine();
+                        Console.WriteLine(@"Available command line arguments:
+'--list': Lists the current available games from the 'games.txt' file.");
+                        Console.ReadKey();
+                        Environment.Exit(0);
+                    }
                 }
             }
 
+            // Final keyboard input that ends the program.
             Console.ReadKey();
         }
     }
